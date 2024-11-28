@@ -1,0 +1,18 @@
+# Ignorar archivos locales y dependencias comunes
+.idea/
+.vscode/
+*.log
+
+# Dependencias de Node.js
+node_modules/
+
+# Dependencias de Java/Gradle/Maven
+target/
+build/
+.gradle/
+.m2/
+
+# Archivos sensibles
+*.env
+*.pem
+*.key
