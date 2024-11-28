@@ -1,0 +1,81 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Maven build directory
+/target/
+
+# Logs
+*.log
+
+# Maven wrapper files
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# Java specific files
+*.class
+*.jar
+*.war
+
+# Operating system specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Eclipse specific files (if used)
+/.classpath
+/.project
+/.settings/
+
+# Spring Boot specific files
+/spring-boot-loader/
+
+# Test output files
+/test-output/
+/test-logs/
+
+# Sensitive or environment-specific files
+*.env
+.env.local
+.env.*.local
+*.local
+*.properties
+
+# Generated files
+generated-sources/
+generated-test-sources/
+
+# Application-specific temporary files
+/tmp/
+
